@@ -6,5 +6,7 @@ public class Example {
     public static void main(String[] args) {
         var capitalizedWord = StringUtils.capitalize("hexlet");
         System.out.println(capitalizedWord);
+        var reversedWord = StringUtils.reverse("Hexlet");
+        System.out.println(reversedWord);
     }
 }
